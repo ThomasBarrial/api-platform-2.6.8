@@ -11,7 +11,6 @@ use Symfony\Component\Validator\Constraints as Assert;
 /** A book. */
 #[ORM\Entity]
 #[ApiResource(
-    routePrefix: '/library',
     collectionOperations: ['get', 'post'],
     itemOperations: ['get', 'put', 'delete'],
 )]
